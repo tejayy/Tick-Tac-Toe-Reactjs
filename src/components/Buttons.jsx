@@ -1,10 +1,13 @@
 
-const Buttons = () => {
+const Buttons = ({onReset}) => {
 
   return (
     <div>
-      <button  className="px-4 py-2 bg-slate-600 text-white font-bold rounded-md hover:bg-slate-800">
-        Click Me
+      <button
+        className=" px-5 py-2 bg-button-color text-white font-bold rounded-md hover:bg-reset"
+        onClick={onReset}
+      >
+        Reset
       </button>
     </div>
   );

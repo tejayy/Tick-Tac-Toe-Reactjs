@@ -1,14 +1,15 @@
 import './App.css'
-import Button from './components/Buttons'
+import TicTacToe from './TicTacToe/TicTacToe';
+
 
 function App() {
 
 
   return (
-    <div>
-      WELCOME TO MY APP
-      <div className="p-5">
-        <Button />
+    <div className="font-bold text-2xl text-white">
+      MY TICK-TAC-TOE GAME IN <span className='text-blue-500'>REACT</span>
+      <div className="">
+        <TicTacToe />
       </div>
     </div>
   );
